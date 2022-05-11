@@ -127,3 +127,33 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/* Desktop First */
+@media screen and (max-width: 768px) {
+    .lessons text-center{
+        width: 50%;
+        
+
+    }
+    .site-header h1 {    
+        font-size: 20px;
+        margin-right: 371px;
+    }
+    .container h2 {
+        font-size: 15px;
+        text-align: left;
+        padding-left: 104px;
+    }
+    .card {
+        
+    }
+       
+    }
+    .row {
+        width: 51%;
+    }
+    .container {
+        width: 100%;
+        
+    }
+    
+}
