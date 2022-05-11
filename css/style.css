@@ -143,17 +143,24 @@ img {
         text-align: left;
         padding-left: 104px;
     }
-    .card {
-        
+
+    h3 {
+        font-size: 10px;
     }
+
+    p {font-size: 10px;}
        
     }
     .row {
         width: 51%;
+        padding-right: 20px;
     }
     .container {
         width: 100%;
         
+    }
+    .colcol-right h3 {
+        font-size: 5px;
     }
     
 }
