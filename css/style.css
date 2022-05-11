@@ -127,40 +127,41 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-/* Desktop First */
-@media screen and (max-width: 768px) {
-    .lessons text-center{
-        width: 50%;
-        
+/* Desktop First mobile */
 
-    }
-    .site-header h1 {    
-        font-size: 20px;
-        margin-right: 371px;
-    }
-    .container h2 {
-        font-size: 15px;
-        text-align: left;
-        padding-left: 104px;
-    }
 
-    h3 {
-        font-size: 10px;
-    }
-
-    p {font-size: 10px;}
-       
-    }
-    .row {
-        width: 51%;
-        padding-right: 20px;
+@media  screen and (min-width: 480px) {
+    .text-center h1 {
+        white-space: nowrap;
+        font-size: 26px;
+        margin-left: 10px;
     }
     .container {
         width: 100%;
-        
     }
-    .colcol-right h3 {
-        font-size: 5px;
+    .row {
+        display: block;
     }
+    .lessons .col {
+        width: 97%;
+    }
+    .card {
+        padding-top: 79px;
+    }
+    .steps .col {
+        width: 97%;
+    }
+    .steps h2 {
+        font-size: 43px;
+        padding-top: 16px;
+    }
+    .why-us .col-left {
+        width: 100%;
+        padding-top: 66px 
+    }
+    .why-us {
+        background-color: black;
+    }
+    
     
 }
